@@ -1,0 +1,50 @@
+.letterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.letter {
+  width: 80%;
+  height: 95vh;
+  padding: 40px;
+  background-color: #FFB6C1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Georgia", serif;
+  color: #333;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-align: left;
+  position: relative;
+}
+
+.date {
+  font-size: 16px;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.letter::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  height: 5px;
+  background-color: #ff385c;
+}
