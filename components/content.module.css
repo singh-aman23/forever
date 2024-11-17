@@ -8,7 +8,7 @@
 
 .letter {
   width: 80%;
-  height: 95vh;
+  min-height: 95vh;
   padding: 40px;
   background-color: #FFB6C1;
   border-radius: 10px;
